@@ -47,11 +47,3 @@ This repository contains a reference architecture for building a highly availabl
 5. High Availability:
    enable autoscale on a single container, or provision autoscale throughput on a database and share it among all the containers in the database.
    
----
-
-## How to Deploy (Terraform)
-
-```bash
-cd terraform
-terraform init
-terraform apply -auto-approve
